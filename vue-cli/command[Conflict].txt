@@ -1,0 +1,19 @@
+#install Vue cli
+npm install -g vue-cli
+
+#Create Project
+vue init <template-name> <project-name>
+
+npm update
+
+#merge js html css
+npm run build
+
+#test project 
+npm run dev
+
+#install babel debug to inspet
+npm install -g babel-node-debug
+
+# Using the ES6 Spread Operator
+npm install --save-dev babel-preset-stage-2

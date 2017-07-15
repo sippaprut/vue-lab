@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>VUE JS LAB!</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+		<div id="app">
+			<p>VueJs is pretty cool - {{ name }} ({{ age }})</p>
+
+			<p>{{ age * 3 }} </p>
+
+			<p>RANDOM : {{ randomNumber() }}</p>
+			
+			<img v-bind:src="img" alt="" width="200">
+
+			<p><input type="text" v-bind:value="name" v-on:input="changeMyName"></p>
+
+
+			<!-- <h1 v-once>{{ title }}</h1>
+			<input type="text" v-on:input="changeTitle">
+			<p>{{ sayHello() }} -  <a v-bind:href="link" target="_blank" title="">Google</a></p>
+			<p v-html="htmlLink"></p> -->
+		</div>
+
+		<script src="js/app.js"></script>
+
+</body>
+</html>

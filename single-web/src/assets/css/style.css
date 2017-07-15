@@ -1,0 +1,10 @@
+ .clearfix{
+    content : '' ;
+    clear: both ;
+    margin-bottom: 10px;
+}
+
+.title-page {
+    margin-top :10px;
+    margin-bottom : 10px;
+}

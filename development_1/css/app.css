@@ -1,0 +1,16 @@
+.wrapper-block {
+	width: 100%;
+	min-height: 50px;
+	border: solid 1px #CCC;
+	padding : 10px;
+}
+
+.clearfix {
+	content: "";
+	clear : both;
+	margin-bottom: 10px;
+}
+
+.playerList {
+	
+}

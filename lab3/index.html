@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>VUE JS LAB3</title>
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+		<div id="app">
+			<input type="test" v-model="name">
+			<p>{{ name  }}</p>
+
+			<p> <strong>Ex: @ = v-on , :href =  v-bind:href </strong></p>
+			<button @click="counter++">Increase</button>
+			<button @click="counter--">Decrease</button>
+			<button @click="secondCounter++">Increase Second</button>
+
+			<p>Counter: {{ counter }} | {{ secondCounter }}</p>
+			<p>Result: {{ result() }} | {{ output }}</p>
+
+			<a href="" :href="link" target="_blank" title="">google.com</a>
+			<br/>
+			<img :src="img" alt="" width="200">
+
+
+			<!-- <h1 v-once>{{ title }}</h1>
+			<input type="text" v-on:input="changeTitle">
+			<p>{{ sayHello() }} -  <a v-bind:href="link" target="_blank" title="">Google</a></p>
+			<p v-html="htmlLink"></p> -->
+		</div>
+
+		<script src="js/app.js"></script>
+
+</body>
+</html>
